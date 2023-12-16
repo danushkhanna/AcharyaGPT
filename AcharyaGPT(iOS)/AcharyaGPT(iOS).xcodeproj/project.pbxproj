@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E5501CD2AF13CB20098143B /* AcharyaGPT_iOS_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5501CC2AF13CB20098143B /* AcharyaGPT_iOS_App.swift */; };
+		2E5501D12AF13CB30098143B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E5501D02AF13CB30098143B /* Assets.xcassets */; };
+		2E5501D42AF13CB30098143B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E5501D32AF13CB30098143B /* Preview Assets.xcassets */; };
+		2E5501DC2AF13CE50098143B /* ChatGPTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2E5501DB2AF13CE50098143B /* ChatGPTSwift */; };
+		2E5501EA2AF13D020098143B /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5501DD2AF13D020098143B /* Styles.swift */; };
+		2E5501EB2AF13D020098143B /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5501DE2AF13D020098143B /* PreferenceKeys.swift */; };
+		2E5501EC2AF13D020098143B /* QueryTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5501DF2AF13D020098143B /* QueryTypeView.swift */; };
+		2E5501ED2AF13D020098143B /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5501E02AF13D020098143B /* NavigationView.swift */; };
+		2E5501EE2AF13D020098143B /* GPTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5501E12AF13D020098143B /* GPTService.swift */; };
+		2E5501EF2AF13D020098143B /* SenderMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5501E22AF13D020098143B /* SenderMessageView.swift */; };
+		2E5501F12AF13D020098143B /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5501E42AF13D020098143B /* IntroductionView.swift */; };
+		2E5501F22AF13D020098143B /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5501E52AF13D020098143B /* ChatMessage.swift */; };
+		2E5501F32AF13D020098143B /* GPTMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5501E62AF13D020098143B /* GPTMessageView.swift */; };
+		2E5501F42AF13D020098143B /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5501E72AF13D020098143B /* ChatViewModel.swift */; };
+		2E5501F52AF13D020098143B /* MessageOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5501E82AF13D020098143B /* MessageOwner.swift */; };
+		2E5501F62AF13D020098143B /* GPTViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5501E92AF13D020098143B /* GPTViewModel.swift */; };
+		2E5501F92AF13D6C0098143B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2E5501F82AF13D6C0098143B /* Alamofire */; };
+		2EE0FBB12AF58DDA009A5C82 /* ChatbotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0FBB02AF58DDA009A5C82 /* ChatbotView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E5501C92AF13CB20098143B /* AcharyaGPT(iOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AcharyaGPT(iOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E5501CC2AF13CB20098143B /* AcharyaGPT_iOS_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcharyaGPT_iOS_App.swift; sourceTree = "<group>"; };
+		2E5501D02AF13CB30098143B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E5501D32AF13CB30098143B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E5501DD2AF13D020098143B /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Styles.swift; path = "../../CoursesApp(deltae)/CoursesApp(deltae)/Styles/Styles.swift"; sourceTree = "<group>"; };
+		2E5501DE2AF13D020098143B /* PreferenceKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreferenceKeys.swift; path = ../../AcharyaGPT/AcharyaGPT/PreferenceKeys.swift; sourceTree = "<group>"; };
+		2E5501DF2AF13D020098143B /* QueryTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QueryTypeView.swift; path = ../../AcharyaGPT/AcharyaGPT/QueryTypeView.swift; sourceTree = "<group>"; };
+		2E5501E02AF13D020098143B /* NavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationView.swift; path = ../../AcharyaGPT/AcharyaGPT/NavigationView.swift; sourceTree = "<group>"; };
+		2E5501E12AF13D020098143B /* GPTService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GPTService.swift; path = ../../AcharyaGPT/AcharyaGPT/GPTService.swift; sourceTree = "<group>"; };
+		2E5501E22AF13D020098143B /* SenderMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SenderMessageView.swift; path = ../../AcharyaGPT/AcharyaGPT/SenderMessageView.swift; sourceTree = "<group>"; };
+		2E5501E42AF13D020098143B /* IntroductionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntroductionView.swift; path = ../../AcharyaGPT/AcharyaGPT/IntroductionView.swift; sourceTree = "<group>"; };
+		2E5501E52AF13D020098143B /* ChatMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatMessage.swift; path = ../../AcharyaGPT/AcharyaGPT/ChatMessage.swift; sourceTree = "<group>"; };
+		2E5501E62AF13D020098143B /* GPTMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GPTMessageView.swift; path = ../../AcharyaGPT/AcharyaGPT/GPTMessageView.swift; sourceTree = "<group>"; };
+		2E5501E72AF13D020098143B /* ChatViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatViewModel.swift; path = ../../AcharyaGPT/AcharyaGPT/ChatViewModel.swift; sourceTree = "<group>"; };
+		2E5501E82AF13D020098143B /* MessageOwner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageOwner.swift; path = ../../AcharyaGPT/AcharyaGPT/MessageOwner.swift; sourceTree = "<group>"; };
+		2E5501E92AF13D020098143B /* GPTViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GPTViewModel.swift; path = ../../AcharyaGPT/AcharyaGPT/GPTViewModel.swift; sourceTree = "<group>"; };
+		2EE0FBB02AF58DDA009A5C82 /* ChatbotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatbotView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E5501C62AF13CB20098143B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E5501DC2AF13CE50098143B /* ChatGPTSwift in Frameworks */,
+				2E5501F92AF13D6C0098143B /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E5501C02AF13CB20098143B = {
+			isa = PBXGroup;
+			children = (
+				2E5501CB2AF13CB20098143B /* AcharyaGPT(iOS) */,
+				2E5501CA2AF13CB20098143B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E5501CA2AF13CB20098143B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E5501C92AF13CB20098143B /* AcharyaGPT(iOS).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E5501CB2AF13CB20098143B /* AcharyaGPT(iOS) */ = {
+			isa = PBXGroup;
+			children = (
+				2E5501CC2AF13CB20098143B /* AcharyaGPT_iOS_App.swift */,
+				2E5501E52AF13D020098143B /* ChatMessage.swift */,
+				2E5501E72AF13D020098143B /* ChatViewModel.swift */,
+				2E5501E62AF13D020098143B /* GPTMessageView.swift */,
+				2E5501E12AF13D020098143B /* GPTService.swift */,
+				2EE0FBB02AF58DDA009A5C82 /* ChatbotView.swift */,
+				2E5501E92AF13D020098143B /* GPTViewModel.swift */,
+				2E5501E42AF13D020098143B /* IntroductionView.swift */,
+				2E5501E82AF13D020098143B /* MessageOwner.swift */,
+				2E5501E02AF13D020098143B /* NavigationView.swift */,
+				2E5501DE2AF13D020098143B /* PreferenceKeys.swift */,
+				2E5501DF2AF13D020098143B /* QueryTypeView.swift */,
+				2E5501E22AF13D020098143B /* SenderMessageView.swift */,
+				2E5501DD2AF13D020098143B /* Styles.swift */,
+				2E5501D02AF13CB30098143B /* Assets.xcassets */,
+				2E5501D22AF13CB30098143B /* Preview Content */,
+			);
+			path = "AcharyaGPT(iOS)";
+			sourceTree = "<group>";
+		};
+		2E5501D22AF13CB30098143B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2E5501D32AF13CB30098143B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E5501C82AF13CB20098143B /* AcharyaGPT(iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E5501D72AF13CB30098143B /* Build configuration list for PBXNativeTarget "AcharyaGPT(iOS)" */;
+			buildPhases = (
+				2E5501C52AF13CB20098143B /* Sources */,
+				2E5501C62AF13CB20098143B /* Frameworks */,
+				2E5501C72AF13CB20098143B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AcharyaGPT(iOS)";
+			packageProductDependencies = (
+				2E5501DB2AF13CE50098143B /* ChatGPTSwift */,
+				2E5501F82AF13D6C0098143B /* Alamofire */,
+			);
+			productName = "AcharyaGPT(iOS)";
+			productReference = 2E5501C92AF13CB20098143B /* AcharyaGPT(iOS).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E5501C12AF13CB20098143B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2E5501C82AF13CB20098143B = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 2E5501C42AF13CB20098143B /* Build configuration list for PBXProject "AcharyaGPT(iOS)" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E5501C02AF13CB20098143B;
+			packageReferences = (
+				2E5501DA2AF13CE50098143B /* XCRemoteSwiftPackageReference "ChatGPTSwiftAcharya" */,
+				2E5501F72AF13D6C0098143B /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 2E5501CA2AF13CB20098143B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E5501C82AF13CB20098143B /* AcharyaGPT(iOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E5501C72AF13CB20098143B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E5501D42AF13CB30098143B /* Preview Assets.xcassets in Resources */,
+				2E5501D12AF13CB30098143B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E5501C52AF13CB20098143B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E5501F62AF13D020098143B /* GPTViewModel.swift in Sources */,
+				2E5501CD2AF13CB20098143B /* AcharyaGPT_iOS_App.swift in Sources */,
+				2E5501EC2AF13D020098143B /* QueryTypeView.swift in Sources */,
+				2E5501F32AF13D020098143B /* GPTMessageView.swift in Sources */,
+				2E5501F22AF13D020098143B /* ChatMessage.swift in Sources */,
+				2E5501ED2AF13D020098143B /* NavigationView.swift in Sources */,
+				2E5501F52AF13D020098143B /* MessageOwner.swift in Sources */,
+				2E5501EB2AF13D020098143B /* PreferenceKeys.swift in Sources */,
+				2E5501EF2AF13D020098143B /* SenderMessageView.swift in Sources */,
+				2E5501EA2AF13D020098143B /* Styles.swift in Sources */,
+				2E5501F12AF13D020098143B /* IntroductionView.swift in Sources */,
+				2E5501F42AF13D020098143B /* ChatViewModel.swift in Sources */,
+				2EE0FBB12AF58DDA009A5C82 /* ChatbotView.swift in Sources */,
+				2E5501EE2AF13D020098143B /* GPTService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2E5501D52AF13CB30098143B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E5501D62AF13CB30098143B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E5501D82AF13CB30098143B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AcharyaGPT(iOS)/Preview Content\"";
+				DEVELOPMENT_TEAM = 4FF3AT39PV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.deltae.AcharyaGPT-iOS-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E5501D92AF13CB30098143B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AcharyaGPT(iOS)/Preview Content\"";
+				DEVELOPMENT_TEAM = 4FF3AT39PV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.deltae.AcharyaGPT-iOS-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E5501C42AF13CB20098143B /* Build configuration list for PBXProject "AcharyaGPT(iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E5501D52AF13CB30098143B /* Debug */,
+				2E5501D62AF13CB30098143B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E5501D72AF13CB30098143B /* Build configuration list for PBXNativeTarget "AcharyaGPT(iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E5501D82AF13CB30098143B /* Debug */,
+				2E5501D92AF13CB30098143B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2E5501DA2AF13CE50098143B /* XCRemoteSwiftPackageReference "ChatGPTSwiftAcharya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ethedeltae/ChatGPTSwiftAcharya.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		2E5501F72AF13D6C0098143B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2E5501DB2AF13CE50098143B /* ChatGPTSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E5501DA2AF13CE50098143B /* XCRemoteSwiftPackageReference "ChatGPTSwiftAcharya" */;
+			productName = ChatGPTSwift;
+		};
+		2E5501F82AF13D6C0098143B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E5501F72AF13D6C0098143B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2E5501C12AF13CB20098143B /* Project object */;
+}
