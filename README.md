@@ -1,2 +1,2 @@
 # AcharyaGPT
-RAG-Enabled LLM for Ayurvedic Healthcare Advice
+Retrieval-based Ayurvedic Knowledge System for Healthcare Advice
